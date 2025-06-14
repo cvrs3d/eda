@@ -17,5 +17,11 @@ class UnitTests(unittest.TestCase):
     def test_calculate_with_few_digits(self):
         self.assertRaisesRegex(ValueError, "List must contain nine numbers.", mean_var_std.calculate, [2,6,2,8,4,0,1,])
 
+
+
+
 if __name__ == "__main__":
     unittest.main()
+
+
+
